@@ -1,0 +1,38 @@
+
+body{
+    margin: auto;
+    width: 80%;
+    border: 3px solid black;
+    padding: 10px;
+}
+.products {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .products td, .products th {
+    border: 1px solid rgb(136, 128, 128);
+    padding: 8px;
+  }
+  
+  .products tr:nth-child(even){background-color: #B9B9B9;}
+  
+  .products tr:hover {background-color: #ddd;}
+  
+  .products th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #A5A5A5;
+    color: rgb(0, 0, 0);
+  }
+
+  .searchInput{
+    padding: 12px 20px 12px 20px;
+    margin: 8px 12px 8px 0;
+    border:2px solid black;
+    box-sizing: border-box;
+    float: right;
+  }
